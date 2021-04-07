@@ -1,7 +1,6 @@
-import lettercombinationsofaphonenumber.Solution
+import thekthlexicographicalstringofallhappystringsoflengthn.Solution
 
 fun main(args: Array<String>) {
     val solution = Solution()
-
-    solution.letterCombinations("2")
+    solution.getHappyString(10, 100)
 }
