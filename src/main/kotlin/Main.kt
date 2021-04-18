@@ -1,7 +1,7 @@
-import leetcode.countandsay.Solution
+import leetcode.jumpgame2.Solution
 
 fun main(args: Array<String>) {
     val solution = Solution()
-    val res = solution.countAndSay(4)
+    val res = solution.jump(listOf(2).toIntArray())
     return
 }
