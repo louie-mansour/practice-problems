@@ -1,8 +1,7 @@
-import leetcode.sortcolors.Solution
+import hearsay.seesawnumbers.Solution
 
 fun main(args: Array<String>) {
     val solution = Solution()
-    val input = listOf(0).toIntArray()
-    val res = solution.sortColors(input)
+    solution.numberOfSeesawPatterns(listOf(0, 2, 1, 2))
     return
 }
