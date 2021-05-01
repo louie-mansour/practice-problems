@@ -1,7 +1,7 @@
-import hearsay.seesawnumbers.Solution
+import leetcode.removeduplicatesfromsortedarray.Solution
 
 fun main(args: Array<String>) {
     val solution = Solution()
-    solution.numberOfSeesawPatterns(listOf(0, 2, 1, 2))
+    solution.removeDuplicates(listOf(0, 0, 1, 1, 1, 1, 2, 3, 3).toIntArray())
     return
 }
