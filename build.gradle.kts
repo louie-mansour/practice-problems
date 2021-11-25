@@ -12,7 +12,8 @@ repositories {
 }
 
 dependencies {
-    testImplementation(kotlin("test-junit"))
+    implementation("org.jetbrains.kotlin:kotlin-test-junit:1.5.31")
+    implementation("org.junit.jupiter:junit-jupiter-api:5.8.1")
 }
 
 tasks.test {

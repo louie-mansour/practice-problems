@@ -1,4 +1,4 @@
-package basics.permutationswithsubsets
+package basics.permutations.permutationswithsubsets
 
 class Solution {
     fun permutations(str: String): List<String> {
